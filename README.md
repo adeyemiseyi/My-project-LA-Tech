@@ -1,2 +1,2 @@
-# My-project-LA-Tech
-Showcasing a website that I designed! L.A. Technologies is the place to go if you want amazing graphic design! With HTML, CSS, and JavaScript, the website is painstakingly designed to offer potential clients a smooth surfing experience. 
+About my first project on GitHub (L.A TECHNOLOGY):
+L.A. Technologies is the place to go if you're seeking amazing graphic design! Built using HTML, CSS, and JavaScript, the website is meticulously designed to offer potential clients a seamless browsing experience. They provide customized design solutions for individuals or businesses looking to enhance their brand with captivating visuals. Explore their portfolio to witness how their technical expertise and creative flair come together to meet your specific needs
