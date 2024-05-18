@@ -1,0 +1,303 @@
+.about-cover {
+    text-align: center;
+    margin-top: 1rem;
+    width: 100%;
+    height: 40vh;
+    padding: 5rem;
+    background: rgb(0, 0, 0);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.about-cover h1 {
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.about-cover a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.about-container img {
+    border-radius: 50%;
+}
+.about-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.about-container .about-content {
+    margin:1rem 0 0 1.5rem;
+}
+
+/*progresbar for html*/
+  .progress-bar-html {
+      width: 100%;
+      background-color: #f0f0f0;
+      height: 30px;
+      position: relative;
+  }
+
+  .progress-html {
+      width: 90%;
+      /* Set the initial percentage */
+      height: 100%;
+      background-color: #f26522;
+      /* Set the progress bar color */
+      position: absolute;
+      top: 0;
+      left: 0;
+  }
+
+  .percentage-html {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #000;
+      font-weight: bold;
+  }
+
+  /*progresbar for css*/
+  .progress-bar-css {
+      width: 100%;
+      background-color: #f0f0f0;
+      height: 30px;
+      position: relative;
+  }
+
+  .progress-css {
+      width: 80%;
+      /* Set the initial percentage */
+      height: 100%;
+      background-color: #f26522;
+      /* Set the progress bar color */
+      position: absolute;
+      top: 0;
+      left: 0;
+  }
+
+  .percentage-css {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #000;
+      font-weight: bold;
+  }
+
+
+/*progresbar for javascript*/
+.progress-bar-js {
+    width: 100%;
+    background-color: #f0f0f0;
+    height: 30px;
+    position: relative;
+}
+
+.progress-js {
+    width: 70%;
+    /* Set the initial percentage */
+    height: 100%;
+    background-color: #f26522;
+    /* Set the progress bar color */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.percentage-js {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    font-weight: bold;
+}
+
+/*progresbar for reactjs*/
+.progress-bar-rea {
+    width: 100%;
+    background-color: #f0f0f0;
+    height: 30px;
+    position: relative;
+}
+
+.progress-rea {
+    width: 60%;
+    /* Set the initial percentage */
+    height: 100%;
+    background-color: #f26522;
+    /* Set the progress bar color */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.percentage-rea {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    font-weight: bold;
+}
+
+/*progresbar for bootstrap*/
+.progress-bar-boots {
+    width: 100%;
+    background-color: #f0f0f0;
+    height: 30px;
+    position: relative;
+}
+
+.progress-boots {
+    width: 50%;
+    /* Set the initial percentage */
+    height: 100%;
+    background-color: #f26522;
+    /* Set the progress bar color */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.percentage-boots {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    font-weight: bold;
+}
+
+/*progresbar for Graphic Design*/
+.progress-bar-graphic {
+    width: 100%;
+    background-color: #f0f0f0;
+    height: 30px;
+    position: relative;
+}
+
+.progress-graphic {
+    width: 95%;
+    /* Set the initial percentage */
+    height: 100%;
+    background-color: #f26522;
+    /* Set the progress bar color */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.percentage-graphic {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    font-weight: bold;
+}
+
+/*progresbar for UI/UX*/
+.progress-bar-uiux {
+    width: 100%;
+    background-color: #f0f0f0;
+    height: 30px;
+    position: relative;
+}
+
+.progress-uiux {
+    width: 70%;
+    /* Set the initial percentage */
+    height: 100%;
+    background-color: #f26522;
+    /* Set the progress bar color */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.percentage-uiux {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    font-weight: bold;
+}
+
+@media (max-width:667px) {
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        background-color: #E3E6F3;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 80px 0 0 10px;
+        transition: 0.3s;
+    }
+
+    #navbar.active {
+        right: 0px;
+    }
+
+    #navbar li {
+        margin-bottom: 25px;
+    }
+
+    #mobile {
+        display: flex;
+        align-items: center;
+    }
+
+    #mobile i img {
+        color: #f26522;
+        font-size: 24px;
+        padding-left: 20px;
+    }
+
+    #close {
+        display: initial;
+        position: absolute;
+        top: 30px;
+        right: 250px;
+        color: #222;
+        font-size: 24px;
+    }
+
+    #bar {
+        color: #fff;
+    }
+
+
+    .about-container{
+    display: flex;
+    flex-direction: column;
+
+}
+.about-container img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.skill-content {
+  width: 80%;
+}
+
+.about-container .about-content p {
+   margin: 0, 0;
+}
+
+}
